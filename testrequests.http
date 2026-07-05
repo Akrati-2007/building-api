@@ -1,0 +1,20 @@
+### Get all tshirts
+GET http://localhost:8080/tshirt
+
+###
+
+### Create tshirt
+POST http://localhost:8080/tshirt/1
+Content-Type: application/json
+
+{
+    "logo": "Nike"
+}
+
+###
+
+### Missing logo
+POST http://localhost:8080/tshirt/2
+Content-Type: application/json
+
+{}
